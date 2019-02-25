@@ -1,9 +1,11 @@
-document.getElementById("add").onClick = function() {
+document.getElementById("add").onClick = function() 
+{
 
-    var text = document.getElementById("myText").value;
+    let text = document.getElementById("idea").value;
 
-    var li = "<li>" + text + </li>;
+    let li = "<li>" + text + </li>;
 
     document.getElementById("list").appendChild(li);
 }
+
 
